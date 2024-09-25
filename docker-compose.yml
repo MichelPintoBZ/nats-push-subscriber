@@ -1,0 +1,14 @@
+services:
+  Nats.Push.Subscriber.console:
+    image: ${DOCKER_REGISTRY-}natspushsubscriberconsole
+    build:
+      context: .
+      dockerfile: Nats.Push.Subscriber.console/Dockerfile
+  
+  nats-server:
+    image: "nats:2.10.20-alpine"
+    command: -m 8222 -c /usr/local/cli-configs/nats-server.conf
+    expose:
+      - "4222"
+    volumes: 
+      - ./nats-server.conf:/usr/local/cli-configs/nats-server.conf 

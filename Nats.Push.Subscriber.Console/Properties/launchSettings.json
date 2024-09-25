@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Nats.Push.Subscriber.console": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
