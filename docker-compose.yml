@@ -5,6 +5,12 @@ services:
       context: .
       dockerfile: Nats.Push.Subscriber.console/Dockerfile
   
+  NatsNetv2:
+    image: ${DOCKER_REGISTRY-}natsnetv2
+    build:
+      context: .
+      dockerfile: NatsNetv2/Dockerfile
+      
   nats-server:
     image: "nats:2.10.20-alpine"
     command: -m 8222 -c /usr/local/cli-configs/nats-server.conf
