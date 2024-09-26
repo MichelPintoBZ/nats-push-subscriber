@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nats.Push.Subscriber.Consol
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{342FF7A7-1767-48DB-9FA5-87B5E0A7DCC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NatsNetv2", "NatsNetv2\NatsNetv2.csproj", "{301A40B8-CCB3-42ED-B75F-226751D64397}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{342FF7A7-1767-48DB-9FA5-87B5E0A7DCC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{342FF7A7-1767-48DB-9FA5-87B5E0A7DCC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{342FF7A7-1767-48DB-9FA5-87B5E0A7DCC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{301A40B8-CCB3-42ED-B75F-226751D64397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{301A40B8-CCB3-42ED-B75F-226751D64397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{301A40B8-CCB3-42ED-B75F-226751D64397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{301A40B8-CCB3-42ED-B75F-226751D64397}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
